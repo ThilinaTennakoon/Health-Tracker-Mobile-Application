@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back13"
+    android:orientation="vertical"
+    tools:context=".DisplayToken">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="52dp"
+            android:layout_marginEnd="71dp"
+            android:text="Your Code :"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/etToken"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.669" />
+
+        <EditText
+            android:id="@+id/etToken"
+            android:layout_width="330dp"
+            android:layout_height="233dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="192dp"
+            android:layout_marginEnd="41dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textMultiLine|textImeMultiLine"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/QRbtn"
+            android:layout_width="303dp"
+            android:layout_height="95dp"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="76dp"
+            android:layout_marginEnd="53dp"
+            android:text="QR Mode Code"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etToken"
+            app:layout_constraintVertical_bias="0.066" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

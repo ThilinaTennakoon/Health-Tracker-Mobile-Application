@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/back13"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    app:backgroundTint="@null"
+    tools:context=".ReminderActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="#4DFFFFFF"
+        app:cardCornerRadius="20dp">
+
+        <LinearLayout
+            android:layout_width="383dp"
+            android:layout_height="333dp"
+            android:background="#56F3F3F3"
+            android:orientation="vertical"
+            app:backgroundTint="@null">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Add Reminder Here..."
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTitle"
+                android:layout_width="340dp"
+                android:layout_height="56dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/edit_background"
+                android:hint="Enter The Task"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="194dp"
+                    android:layout_weight="0.5">
+
+                    <Button
+                        android:id="@+id/btnSbumit"
+                        android:layout_width="290dp"
+                        android:layout_height="51dp"
+                        android:layout_margin="10dp"
+                        android:layout_marginStart="46dp"
+                        android:layout_marginTop="57dp"
+                        android:layout_marginEnd="83dp"
+                        android:layout_marginBottom="50dp"
+                        android:background="#2940C1"
+                        android:text="Save"
+                        android:textSize="16sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/btnDate" />
+
+                    <Button
+                        android:id="@+id/btnDate"
+                        android:layout_width="121dp"
+                        android:layout_height="48dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="0.5"
+                        android:background="#2940C1"
+                        android:text="date"
+                        android:textSize="16sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.198"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.144" />
+
+                    <Button
+                        android:id="@+id/btnTime"
+                        android:layout_width="121dp"
+                        android:layout_height="48dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="0.5"
+                        android:background="#2940C1"
+                        android:text="time"
+                        android:textSize="16sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.793"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.144" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/keyp"
+            android:layout_width="245dp"
+            android:layout_height="60dp"
+            android:text="Yor Protecter Key"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/addp"
+            app:layout_constraintVertical_bias="0.307" />
+
+        <Button
+            android:id="@+id/addp"
+            android:layout_width="252dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="136dp"
+            android:text="Add Protecter"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="220dp"
+            android:text="Add Protecter Here..."
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.325"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>
