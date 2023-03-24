@@ -18,7 +18,7 @@ This is a Health Tracker mobile application designed to help users with their da
 - Firebase
 ## Screenshots
 
-![App Screenshot](https://github.com/ThilinaTennakoon/Health_Tracker-/blob/master/Screenshots/Screenshot_20230324_092431.png)
+![App Screenshot](https://github.com/ThilinaTennakoon/Health_Tracker-/blob/master/Screenshots/Screenshot_20230324_092431.png =250*250)
 
 ![App Screenshot](https://github.com/ThilinaTennakoon/Health_Tracker-/blob/master/Screenshots/Screenshot_20230324_092530.png)
 
