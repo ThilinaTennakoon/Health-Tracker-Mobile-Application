@@ -20,7 +20,7 @@ This is a Health Tracker mobile application designed to help users with their da
 
 
 <img src="https://github.com/ThilinaTennakoon/Health_Tracker-/blob/master/Screenshots/Screenshot_20230324_092431.png" width="200" height="400" />
-<img src="https://github.com/ThilinaTennakoon/Health_Tracker-/blob/master/Screenshots/Screenshot_20230324_092530.png" alt="Image description" style="max-width:100%;"/>
+<img src="https://github.com/ThilinaTennakoon/Health_Tracker-/blob/master/Screenshots/Screenshot_20230324_092530.png" width="200" height="400" />
 
 
 
