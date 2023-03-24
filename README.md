@@ -21,12 +21,10 @@ This is a Health Tracker mobile application designed to help users with their da
 <p float="left">
 <img src="https://github.com/ThilinaTennakoon/Health_Tracker-/blob/master/Screenshots/Screenshot_20230324_092431.png" width="200" height="400" />
 <img src="https://github.com/ThilinaTennakoon/Health_Tracker-/blob/master/Screenshots/Screenshot_20230324_092530.png" width="200" height="400" />
-
+<img src="https://github.com/ThilinaTennakoon/Health_Tracker-/blob/master/Screenshots/Screenshot_20230324_092601.png" width="200" height="400" />
+<img src="https://github.com/ThilinaTennakoon/Health_Tracker-/blob/master/Screenshots/Screenshot_20230324_092643.png" width="200" height="400" />
 </p>
 
-![App Screenshot](https://github.com/ThilinaTennakoon/Health_Tracker-/blob/master/Screenshots/Screenshot_20230324_092601.png)
-
-![App Screenshot](https://github.com/ThilinaTennakoon/Health_Tracker-/blob/master/Screenshots/Screenshot_20230324_092643.png)
 
 
 
